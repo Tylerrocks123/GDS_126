@@ -19,7 +19,7 @@ Properties:
 
 var playerData ={
 	info:{
-		src:`images/FoxSpriteSheet_Almeida.png`
+		src:`images/foxSpriteSheet_Almeida.png`
 	},
 	states:{
 		//The idle animation 
@@ -78,7 +78,7 @@ var playerData ={
 		//The attack animation 
 		attack:
 		{
-			fps:10,
+			fps:8,
 			cycle:true,
 			//width:300,
 			frames:
@@ -86,6 +86,19 @@ var playerData ={
 				{width:128, height:128, startX:0, startY:0},
 				{width:128, height:128, startX:512, startY:128},
 				{width:128, height:128, startX:640, startY:128},
+				
+			]
+		},
+
+		magic:
+		{
+			fps:30,
+			cycle:true,
+			//width:300,
+			frames:
+			[
+				{width:128, height:128, startX:896, startY:128},
+				{width:128, height:128, startX:0, startY:256}
 				
 			]
 		}

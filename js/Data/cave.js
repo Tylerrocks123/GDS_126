@@ -13,7 +13,7 @@ var caveData ={
 			
 			
 		],
-		src:`images/tilesetTest.png`,
+		src:`images/tileset.png`,
 	},
 	states:
 	[		
@@ -78,7 +78,7 @@ var caveData ={
 			[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
 
 			],
-			src:`images/tilesetTest.png`,
+			src:`images/tileset.png`,
 		},
 		states:caveData.states
 		}
