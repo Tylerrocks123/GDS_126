@@ -4,11 +4,11 @@ var caveData ={
 		layout:[
 			[2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2],
 			[2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2],
-			[2,x,x,7,x,x,7,x,x,x,x,x,x,7,7,x,7,7,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,2],
 			[2,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,2],
 			[2,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,2],
-			[7,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,2],
-			[x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,2],
+			[2,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,2],
+			[x,9,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,2],
+			[x,9,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,2],
 			[x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x]
 			
 			
@@ -42,28 +42,44 @@ var caveData ={
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:64, height:64, startX:256, startY:0}]
+				frames:[{width:64, height:64, startX:0, startY:64}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:64, height:64, startX:320, startY:0}]
+				frames:[{width:64, height:64, startX:64, startY:64}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:64, height:64, startX:384, startY:0}]
+				frames:[{width:64, height:64, startX:128, startY:64}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:64, height:64, startX:448, startY:0}]
+				frames:[{width:64, height:64, startX:192, startY:64}]
 			},
 			{
 				fps:1,
 				cycle:false,
-				frames:[{width:64, height:64, startX:512, startY:0}]
-			}
+				frames:[{width:64, height:64, startX:0, startY:128}]
+			},
+			{
+				fps:1,
+				cycle:false,
+				frames:[{width:64, height:64, startX:64, startY:128}]
+			},
+			{
+				fps:1,
+				cycle:false,
+				frames:[{width:64, height:64, startX:128, startY:128}]
+			},
+			{
+				fps:1,
+				cycle:false,
+				frames:[{width:64, height:64, startX:192, startY:128}]
+			},
+			
 		]
 	}
 	var caveBackData ={
@@ -73,9 +89,9 @@ var caveData ={
 			[x,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
 			[x,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
 			[x,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
-			[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
-			[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
-			[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+			[x,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+			[x,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+			[x,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
 
 			],
 			src:`images/tileset.png`,
