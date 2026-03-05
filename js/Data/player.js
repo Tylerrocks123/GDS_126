@@ -98,7 +98,7 @@ var playerData ={
 			frames:
 			[
 				{width:128, height:128, startX:896, startY:128},
-				{width:128, height:128, startX:0, startY:256}
+				{width:128, height:128, startX:0, startY:256},
 				
 			]
 		}
