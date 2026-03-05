@@ -17,7 +17,7 @@ var ground = new GameObject({width:canvas.width*10, x:canvas.width*10/2-500,heig
 ground.img.src=`images/grass64_almeida.png`
 
 //A platform
-var plat = new GameObject({width:128, height:64,y:canvas.height-200, color:"green", world:level})
+var plat = new GameObject({width:700, height:64,y:canvas.height-200, color:"green", world:level})
 
 
 
