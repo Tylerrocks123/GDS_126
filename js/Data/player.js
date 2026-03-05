@@ -19,7 +19,7 @@ Properties:
 
 var playerData ={
 	info:{
-		src:`images/foxSpriteSheet_Almeida.png`
+		src:`images//foxSpriteSheet_Almeida.png`
 	},
 	states:{
 		//The idle animation 
