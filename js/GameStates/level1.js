@@ -1,6 +1,6 @@
 
 /*------------Use this if you want to implement States---------------*/
-var gravity = 1.3;
+var gravity = 1.5;
 var friction = {x:.85,y:.96}
 
 var stage = new GameObject({width:canvas.width, height:canvas.height});
@@ -17,7 +17,7 @@ var ground = new GameObject({width:canvas.width*10, x:canvas.width*10/2-500,heig
 ground.img.src=`images/grass64_almeida.png`
 
 //A platform
-var plat = new GameObject({width:700, height:64,y:canvas.height-200, color:"green", world:level})
+var plat = new GameObject({width:128, height:64,y:canvas.height-200, color:"green", world:level})
 
 
 
