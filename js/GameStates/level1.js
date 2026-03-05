@@ -1,6 +1,6 @@
 
 /*------------Use this if you want to implement States---------------*/
-var gravity = 1.5;
+var gravity = 1.3;
 var friction = {x:.85,y:.96}
 
 var stage = new GameObject({width:canvas.width, height:canvas.height});
@@ -13,11 +13,11 @@ var wiz = new GameObject({width:128, height:128, spriteData:playerData}).makeSpr
 wiz.force=1
 
 //The ground
-var ground = new GameObject({width:canvas.width*10, x:canvas.width*10/2-200,height:64,y:canvas.height-32, color:"green", world:level})
+var ground = new GameObject({width:canvas.width*10, x:canvas.width*10/2-500,height:64,y:canvas.height-32, color:"green", world:level})
 ground.img.src=`images/grass64_almeida.png`
 
 //A platform
-var plat = new GameObject({width:256, height:64,y:canvas.height-200, color:"green", world:level})
+var plat = new GameObject({width:700, height:64,y:canvas.height-200, color:"green", world:level})
 
 
 
@@ -69,11 +69,11 @@ sky.img.src = `images/sky.png`
 */
 
 //repeating background
-var rbg = new GameObject({x:level.x, y:level.y, width:1024, height:512})
+var rbg = new GameObject({x:level.x, y:level.y, width:2048, height:600})
 rbg.img.src=`images/hills.png`
 
 //middleground
-var bg = new GameObject({x:level.x,y:level.y, width:canvas.width*4, height:canvas.height})
+var bg = new GameObject({x:-200,y:level.y, width:canvas.width*8, height:canvas.height})
 bg.img.src=`images/bgfull.png`
 
 /*------------------vvBULLET STUFFvv----------------------*/
